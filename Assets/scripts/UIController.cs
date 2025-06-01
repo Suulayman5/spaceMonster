@@ -21,7 +21,7 @@ public class UIController : MonoBehaviour
     }
     public void UpdateEnergySlider(float current, float max)
     {
-        energySlider.value = current;
+        energySlider.value = Mathf.RoundToInt(current);
         energySlider.maxValue = max;
         energyText.text = energySlider.value + "/" + energySlider.maxValue;
 

@@ -11,9 +11,9 @@ public class PlayerController : MonoBehaviour
     public float boast = 1f;
     private float boastPower = 5f;
     private bool boosting = false;
-    [SerializeField] private float energy;
+     private float energy = 50f;
     [SerializeField] private float energyRegen;
-    [SerializeField] private float maxEnergy;
+     private float maxEnergy = 50f;
 
         private void Awake()
     {
@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             if (energy >= 0.2f)
             {
-                energy -= 0.2f * Time.deltaTime;
+                energy -= 1f * Time.deltaTime;
             }
             else
             {
