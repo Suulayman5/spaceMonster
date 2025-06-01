@@ -54,13 +54,13 @@ public class PlayerController : MonoBehaviour
     }
     void EnterBoast()
     {
-        animator.SetBool("Bosting", true);
+        animator.SetBool("bosting", true);
         boast = boastPower;
 
     }
     void ExitBoast()
     {
-        animator.SetBool("Bosting", false);
+        animator.SetBool("bosting", false);
         boast = 1f;
 
     }
