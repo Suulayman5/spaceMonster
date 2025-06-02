@@ -131,7 +131,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1250
+        width: 250
         height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -147,11 +147,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: asteroid_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc95c590125c45be9728812e3f89599
+      internalID: 2105622517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807d1e240b8634ea89ef2e32ec8d6036
+      internalID: 1620967214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0238f4b0bdc493fb291fd87aff81af
+      internalID: -1184668856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asteroid_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2bb929bbf10407488370e78e2c197c
+      internalID: -505624492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 17c464a04b3814772ae4b0bbb994a7eb
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +247,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":250.0,"y":248.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       asteroid_sprite_0: 2357709100146644040
+      asteroid_sprite_1: 2105622517
+      asteroid_sprite_2: 1620967214
+      asteroid_sprite_3: -1184668856
+      asteroid_sprite_4: -505624492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
