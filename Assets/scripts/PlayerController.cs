@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             if (energy >= 0.2f)
             {
-                energy -= 1f * Time.deltaTime;
+                energy -= 3f * Time.deltaTime;
             }
             else
             {
